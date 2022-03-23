@@ -6,9 +6,12 @@ public class frequencyOfChars {
         //
         //Ör: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
 
-        String str="AAABBCDD";
+        String str="AAABBBCDAAAAAA";
 
         FrequencyOfChars(str);
+
+
+
     }
 
     private static void FrequencyOfChars(String str) {
@@ -17,7 +20,7 @@ public class frequencyOfChars {
         String str3="";
         int count=0;
 
-        for (int i = 0; i <=str.length()-1 ; i++) {
+        for (int i = 0; i <str.length() ; i++) {
             count=i+1-str.indexOf(str.charAt(i));
 
             if(i<str.length()-1){
