@@ -6,7 +6,7 @@ public class frequencyOfChars {
         //
         //Ör: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
 
-        String str="AAABBBCDAAAAAA";
+        String str="AAABBBCDD";
 
         FrequencyOfChars(str);
 
